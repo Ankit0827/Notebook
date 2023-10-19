@@ -7,8 +7,8 @@ import NoteBook from './Components/Notebook';
 function App() {
   return (
     <div className="App">
-       <Header/>
        <BrowserRouter>
+       <Header/>
          <Routes>
           <Route  path='/' element={<AddnoteBook/>}/>
           <Route  path='/Notebook' element={<NoteBook/>}/>

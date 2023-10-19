@@ -45,10 +45,6 @@ const NoteBook = () => {
             }
             <p>{currentDate}</p>
 
-            <div className="go-back-btn-div">
-            <Link to="/">Go back</Link>
-          </div>
-
         </div>
     )
 }
